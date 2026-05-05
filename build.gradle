@@ -1,0 +1,58 @@
+// build.gradle (Module: sdk)
+// Quai Network Kotlin SDK
+
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'com.quai.sdk'
+    compileSdk 34
+
+    defaultConfig {
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    //  Kotlin Coroutines 
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
+
+    //  Web3j (EVM key derivation + credential generation) 
+    // Used for BIP-32 key derivation and Credentials.create()
+    implementation 'org.web3j:core:4.9.4'
+
+    //  BitcoinJ (BIP-39 mnemonic generation + validation) 
+    implementation 'org.bitcoinj:bitcoinj-core:0.15.10'
+
+    // OkHttp (RPC calls + signing service HTTP requests) 
+    implementation 'com.squareup.okhttp3:okhttp:4.11.0'
+
+    // Android
+    implementation 'androidx.core:core-ktx:1.12.0'
+
+    // Testing
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+}
