@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" width="120" alt="VH Wallet Logo"/>
+  <img src="assets/logo.jpg" width="120" alt="VH Wallet Logo"/>
 </p>
 
 <h1 align="center">VH Wallet — Quai Android Integration</h1>
