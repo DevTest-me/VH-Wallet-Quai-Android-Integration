@@ -74,9 +74,7 @@ https://quai-service.onrender.com
 | `/` | GET | Health check — `{"status":"Quai Service is running!"}` |
 | `/sign-transaction` | POST | Sign and broadcast a transaction |
 
-> ⚠️ **The public instance is for development and testing only.** For production, self-host your own instance. The full signing service source code is in the [`quai-service/`](quai-service/) folder of this repo.
-
-### Self-hosting on Render (Free tier)
+### Self-hosting
 
 1. Fork this repo
 2. Create a new **Web Service**
