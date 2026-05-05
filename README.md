@@ -5,7 +5,7 @@
 <h1 align="center">VH Wallet — Quai Android Integration</h1>
 
 <p align="center">
-  <strong>by <a href="https://vertexhivetech.com">VertexHiveTech</a></strong><br/>
+  <strong>by <a href="https://x.com/VertexhiveTech">VertexHiveTech</a></strong><br/>
   The first open Kotlin/Android SDK for building on Quai Network
 </p>
 
@@ -18,7 +18,7 @@
 
 ---
 
-> This SDK was built as part of **VH Wallet** — a multi-chain Android wallet by [VertexHiveTech](https://vertexhivetech.com). We open-sourced our Quai Network integration to help other Android builders avoid the same pain we went through. If this saves you time, give it a ⭐.
+> This SDK was built as part of **VH Wallet** — a multi-chain Android wallet by [VertexHiveTech](https://x.com/VertexhiveTech). We open-sourced our Quai Network integration to help other Android builders avoid the same pain we went through. If this saves you time, give it a ⭐.
 
 ---
 
